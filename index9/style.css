@@ -1,0 +1,46 @@
+.supreme-parent {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+
+.parent {
+    height: 400px;
+    width: 800px;
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+}
+
+.son0 {
+    background-color: yellow;
+    border-radius: 24px;
+    grid-row: span 2;
+    border: solid 2px black;
+}
+
+.son1 {
+    background-color: purple;
+    border-radius: 24px;
+    border: solid 2px black;
+}
+
+.son2 {
+    background-color: blue;
+    border-radius: 24px;
+    border: solid 2px black;
+}
+
+.son3 {
+    background-color: coral;
+    border-radius: 24px;
+    border: solid 2px black;
+}
+
+.son4 {
+    background-color: red;
+    border-radius: 24px;
+    border: solid 2px black;
+}

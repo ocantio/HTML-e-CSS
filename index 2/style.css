@@ -1,0 +1,42 @@
+.quadrato {
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    margin-left: 500px;
+    margin-block: 100px;
+}
+
+.quadrato2 {
+    background-color: blueviolet;
+    height: 100px;
+    width: 100px;
+    margin-left: 500px;
+    margin-block: 100px;
+}
+
+.quadrato3 {
+    background-color: orange;
+    height: 100px;
+    width: 100px;
+    margin-left: 500px;
+    padding-top: 50px;
+    
+}
+
+.quadratointerno {
+    background-color: grey;
+    height: 50px;
+    width: 50px;
+    margin-left: 25px;
+    
+}
+
+.text {
+    padding-left: 25px;
+    padding-top: 25px;
+}
+
+
+
+
+

@@ -1,0 +1,131 @@
+.Main-Box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    top: 180px;
+}
+
+img {
+    width: 400px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 220px;
+    gap: 20px;
+}
+
+.button1 {
+    padding: 7px;
+}
+
+.button2 {
+    padding: 7px;
+}
+
+.input-text {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 200px;
+}
+
+.searchbar {
+    border-radius: 24px;
+    width: 30%;
+    padding: 10px;
+}
+
+@media screen and (max-width: 768px) {
+
+    .Main-Box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    top: 180px;
+}
+
+img {
+    width: 250px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 200px;
+    gap: 20px;
+}
+
+.button1 {
+    padding: 7px;
+}
+
+.button2 {
+    padding: 7px;
+}
+
+.input-text {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 180px;
+}
+
+.searchbar {
+    border-radius: 24px;
+    width: 80%;
+    padding: 7px;
+}
+
+}
+
+@media screen and (max-width: 1023px) {
+
+    .Main-Box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    top: 180px;
+}
+
+img {
+    width: 350px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 200px;
+    gap: 20px;
+}
+
+.button1 {
+    padding: 7px;
+}
+
+.button2 {
+    padding: 7px;
+}
+
+.input-text {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 180px;
+}
+
+.searchbar {
+    border-radius: 24px;
+    width: 70%;
+    padding: 7px;
+}
+
+}
+

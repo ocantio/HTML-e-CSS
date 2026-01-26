@@ -1,0 +1,41 @@
+/* MOBILE FIRST */
+.shape {
+    width: 100px;
+    height: 100px;
+}
+
+#purple {
+    background-color: purple;
+}
+
+.color-1 {
+    background-color: red;
+}
+
+.color-2 {
+    background-color: green;
+}
+
+/*ADATTAMENTO TABLET*/
+@media screen and (min-width: 768px) {
+    .color-1 {
+        background-color: yellow;
+    }
+
+    .color-2 {
+        background-color: coral;
+    }
+}
+
+/*ADATTAMENTO DESKTOP */
+@media screen and (min-width: 1023px) {
+    .color-1 {
+        background-color: blue;
+    }
+
+    .color-2 {
+        background-color: greenyellow;
+    }
+}
+
+

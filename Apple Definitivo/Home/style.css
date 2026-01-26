@@ -1,0 +1,50 @@
+body {
+    background-color: #3F4045;
+}
+
+.navbar {
+    background-color: #5D737E;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+a {
+    color: #FCFCFC;
+}
+
+.Logo {
+    width: 35px;
+    position: relative;
+    top: -3px;
+}
+
+.Main-Box {
+    display: flex;
+    flex-direction: column;
+}
+
+.Sub-Box {
+    display: flex;
+    flex-direction: column;
+}   
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    gap: 20px;
+    border-radius: 24px;
+}
+
+.buttons2 {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    gap: 20px;
+    border-radius: 24px;
+}
+

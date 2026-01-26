@@ -1,0 +1,50 @@
+body {
+    background-color: #3F4045;
+}
+
+.navbar {
+    background-color: #5D737E;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+a {
+    color: #FCFCFC;
+}
+
+.Logo {
+    width: 35px;
+    position: relative;
+    top: -3px;
+}
+
+.Main-Box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    position: relative;
+    margin-right: auto;
+}
+
+.img {
+    width: 200px;
+    border: 6px solid #FCFCFC;
+    box-shadow: 10px 10px 10px 6px;
+}
+
+.Sub-Box {
+    color: #FCFCFC;
+    background-color: #5D737E;
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+    padding: 10px;
+} 
