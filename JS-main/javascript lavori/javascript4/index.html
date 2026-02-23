@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ul id="li">
+        <li>10</li>
+        <li>5</li>
+        <li>8</li>
+        <li>12</li>
+    </ul>
+    <script>
+    const lista=document.getElementById("li");
+    const numeri= lista.getElementsByTagName("li");
+    var somma=0;
+    for (var i=0; i<numeri.length; i++) {
+    somma= numeri[i] + somma;
+    }
+
+    media= somma/numeri.length;
+    console.log(media);
+    </script>
+</body>
+</html>

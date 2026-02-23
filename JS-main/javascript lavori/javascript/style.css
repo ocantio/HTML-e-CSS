@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    justify-content: center;
+    height: 50vh;
+    align-items: center;
+}
+
+.color {
+    border-radius: 24px;
+    border: 2px solid black;
+    width: 200px;
+    height: 200px;
+    background-color: green;
+}
+
+.color.active {
+    background-color: blue;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    height: 1vh;
+    align-items: center;
+}

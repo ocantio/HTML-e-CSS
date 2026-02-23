@@ -1,0 +1,17 @@
+.bold {
+    font-weight: bold;
+}
+
+.blue {
+    color: blue;
+}
+
+div > p {
+    color: red;
+}
+
+#add-item {
+    border-radius: 24px;
+}
+
+
